@@ -110,7 +110,9 @@ function playAgain() {
   document.getElementById("playAgainBtn").style.display = "none";
   document.getElementById("msg-div").style.display = "none";
   document.getElementById("output").innerHTML = "";
+  document.getElementById("checkBtn").classList.remove("no-hover");
 
 }
 
 // =================================================
+
